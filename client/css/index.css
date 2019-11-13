@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  overflow: hidden;
+  font-family: "黑体";
+}
+
+a {
+  color: #868585;
+}
+
+/* HEADER */
+
+.headerBox {
+  display: flex;
+  height: 52px;
+  background: #e9e7ef;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.headerBox .logo {
+  width: 26%;
+  font-size: 24px;
+  line-height: 52px;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.headerBox .baseBox {
+  width: 34%;
+  text-align: right;
+  margin-right: 2%;
+  line-height: 52px;
+}
+
+.navBox {
+  width: 40%;
+  text-align: left;
+}
+
+.navBox a {
+  float: left;
+  margin-top: 26px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.footBox {
+  height: 50px;
+  width: 100%;
+  /* background: #519a73; */
+  background:#f19ba2;
+  text-align: center;
+  position: fixed;
+  line-height: 50px;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.iframeBox {
+  width: 80%;
+  /* height: 100%; */
+  border: 1px solid transparent;
+}
+
+.menuBox {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    user-select: none;
+}
+.menuBox .itemBox {
+  display: none;
+  margin-bottom: 10px;
+}
+.menuBox .itemBox h3 {
+  line-height: 35px;
+  font-size: 20px;
+  font-family: "黑体";
+  font-weight: 400;
+  cursor: pointer;
+}
+.menuBox .itemBox:nth-child(1) {
+  margin-top: 20px;
+}
+.menuBox .itemBox h3 i {
+  margin-left: 14px;
+}
+.menuBox .itemBox .item {
+  padding-left: 25px;
+}
+.menuBox .itemBox .item a {
+  display: block;
+  line-height: 36px;
+}

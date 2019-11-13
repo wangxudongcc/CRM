@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "586758",
+      "name": "客户管理",
+      "font_class": "weibiaoti2",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "759614",
+      "name": "客户",
+      "font_class": "kehu",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "4396316",
+      "name": "部门管理",
+      "font_class": "bumenguanli",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "6627752",
+      "name": "职务管理",
+      "font_class": "zhiwuguanli",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    }
+  ]
+}

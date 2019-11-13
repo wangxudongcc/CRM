@@ -1,0 +1,196 @@
+/* customeradd */
+.infobox {
+  padding: 20px 0 0 80px;
+  font-size: 18px;
+  font-family: "黑体";
+}
+.form {
+  margin: 35px 0;
+}
+.inpBox {
+  display: flex;
+}
+.inpBox > span {
+  margin-right: 10px;
+}
+.inpBox > input[type="text"] {
+  width: 300px;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 10px;
+}
+.inpBox > select {
+  box-sizing: border-box;
+  width: 150px;
+  height: 32px;
+  line-height: 30px;
+}
+.inpBox > textarea {
+  width: 324px;
+  height: 80px;
+}
+.submit {
+  margin-left: 235px;
+  border: none;
+  background: #f47983;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* customerlist */
+.filterBox {
+  text-align: right;
+}
+.selectBox,
+.searchInp {
+  box-sizing: border-box;
+  margin: 10px 20px 0 1px;
+  padding: 0 5px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #f47983;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.searchInp {
+  padding-left: 10px;
+  width: 200px;
+}
+.pageBox {
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  font-family: '黑体';
+}
+.pageBox > a,
+.pageNum,
+.pageNum > li {
+  display: inline-block;
+  cursor: pointer;
+}
+.pageBox > a{
+  color: #f47983;
+ 
+}
+.pageNum li.active {
+  color: #f47983;
+}
+
+table{
+    width: 100%;
+}
+.tableBox,
+.tableBox thead,
+.tableBox tbody {
+  display: block;
+  
+}
+.tableBox a {
+    margin:0 4px;
+  color: #f47983;
+}
+.tableBox thead {
+  border-top: 1px solid #e6e6e6;
+ 
+}
+.tableBox tr {
+  position: relative;
+  display: block;
+  line-height: 40px;
+  font-size: 0;
+border-bottom: 1px solid #e6e6e6;
+}
+.tableBox tr th,
+.tableBox tr td {
+  text-align: center;
+  font-size: 16px;
+  font-family: "黑体";
+  overflow: hidden;
+  
+}
+.w8 {
+  width: 8%;
+  display: inline-block;
+  float: left;
+}
+.w5 {
+  width: 5%; 
+ display: inline-block;
+  float: left;
+}
+.beizhu{
+ 
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.xingming,.dianhua,.xingbie,.bumen,.caozuo{
+  display: inline;
+}
+.w30 {
+  width: 30%;
+   float: right;
+  margin-right: 20%;
+  /* display: inline-block */
+}
+.caozuo{
+  position: absolute;
+  right: 2%;
+}
+.clearfix:after {  
+  content: ""; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+}   
+ 
+.w15 {
+  width: 20%;
+}
+
+
+.w10 { 
+  width: 10%;
+  overflow: hidden;
+    
+}
+.wrap {
+  overflow: auto;
+  text-overflow: clip;
+ display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.caozuo{
+    padding-left:130px;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+}
+.bumen{
+    /* padding:50px; */
+    margin-right:10%;
+    font-size: 18px;
+    font-family: '黑体';
+}
+
+.bumen > input[type="text"] {
+    width: 300px;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 10px;
+  }
+  #bumen1{
+    padding-top:50px; 
+    display: block;
+}

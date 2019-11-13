@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cnpm": "^6.1.0",
+    "element-ui": "^2.12.0"
+  }
+}
